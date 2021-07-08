@@ -1,6 +1,6 @@
 <section class="depot_form">
   <% if flash[:alert] %>
-    <aside class="notice"><%= flash[:alert] %></aside> 
+    <aside class="notice"><%= flash[:alert] %></aside>
   <% end %>
 
   <%= form_tag do %>
@@ -18,6 +18,5 @@
     <div class="actions">
       <%= submit_tag "Login" %>
     </div>
-
   <% end %>
 </section>
